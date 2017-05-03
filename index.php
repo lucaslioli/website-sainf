@@ -112,8 +112,24 @@
 			</div>
 		</div><!--
 			--><div id="contato" class="menu-height"></div>
-	</div><!--
-	--><div class="container-fluid contato"> <!-- CONTATO -->
+	</div>
+	<div class="container">
+            <h1>Galery</h1>
+            <section>
+                <div class="text-center">
+                    <?php
+                    $pasta = 'img/fotos/';
+                    $fotos = glob("$pasta{*.jpg, *.JPG, *.PNG, *.png}", GLOB_BRACE);
+                    foreach ($fotos as $foto) {
+                        $thumb = str_replace("fotos", "thumbs", $foto);
+                        echo "<a href='$foto' data-lightbox='example' data-title=''><img class='img-thumbnail image_block' src='$thumb' alt=''/></a>";
+                    }                            
+                    ?>
+                </div>
+            </section>
+           
+        </div>
+	<div class="container-fluid contato"> <!-- CONTATO -->
 		<div class="divisor">
 			<div class="title-section"><i class="fa fa-comments-o" aria-hidden="true"></i> CONTATO</div>
 		</div>
@@ -128,4 +144,11 @@
 		<p>Copyright &copy <?= Date("Y"); ?> SAINF<br/>Universidade Federal de Santa Maria<br/>RS - Brasil</p>
 	</div>
 <script src="js/countDown.js" type="text/javascript"></script>
+ <script type="text/javascript" src="js/lightbox_plus_jquery.min.js">
+                /**
+                 * Copyright (c) 2015 Lokesh Dhakar 
+                 * Lightbox2 - The original lightbox script.
+                 * by [Lokesh Dhakar](http://www.lokeshdhakar.com)
+                 */        
+  </script>
 </body></html>			
