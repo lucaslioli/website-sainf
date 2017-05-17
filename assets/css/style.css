@@ -108,11 +108,9 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 .linkBranco .lk { color: #FFFFFF; text-decoration: none;}
 .linkBranco a:hover { text-decoration: underline;}
 
-/* CRONOGRAMA */
-.div-cronograma { width: 99%; margin: 50px 0px 40px 0px; border-collapse:collapse; overflow-x: scroll; }
-.div-cronograma table { width: 100%; min-width: 1273px; text-align: center; border-spacing: 0px; color: #5c5c5c;}
-.div-cronograma td, th { padding: 10px; border: 1px #DDD  solid; }
-.line-grey { background-color: #EFEFEF }
+/* APOIO */
+.box-pai { width: 99%; min-width: 190px; margin: 0px auto; display: block; text-align: center; }
+.box { display: inline-block; max-width: 150px; margin: 10px; }
 
 /* SPEAKERS */
 #speakersContainer { margin-top: 50px;  text-align: center;}
@@ -122,9 +120,14 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 .speaker-cima h5 {font-size: 15pt; color: #fff; }
 .speaker-cima h6 {font-size: 11pt; color: #fff; }
 
-/* APOIO */
-.box-pai { width: 99%; min-width: 190px; margin: 0px auto; display: block; text-align: center; }
-.box { display: inline-block; max-width: 150px; margin: 10px; }
+/* CRONOGRAMA */
+.div-cronograma { width: 99%; margin: 50px 0px 40px 0px; border-collapse:collapse; overflow-x: scroll; }
+.div-cronograma table { width: 100%; min-width: 1273px; text-align: center; border-spacing: 0px; color: #5c5c5c;}
+.div-cronograma td, th { padding: 10px; border: 1px #DDD  solid; }
+.line-grey { background-color: #EFEFEF }
+
+/* GALERIA */
+.image_block { margin: 5px; }
 
 /* CONTATO */
 .contato p { text-align: center; }

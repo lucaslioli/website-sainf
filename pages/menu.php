@@ -6,18 +6,13 @@
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#a-sainf">A SAINF</a>
-                </li>
-                <li><a href="#apoio">Apoio</a>
-                </li>
-                <li><a href="#speakers">Speakers</a>
-                </li>
-                <li><a href="#inscricoes">Inscrições</a>
-                </li>
-                <li><a href="#cronograma">Cronograma</a>
-                </li>
-                <li><a href="#contato">Contato</a>
-                </li>
+            <li><a href="#a-sainf">A SAINF</a></li>
+                <li><a href="#apoio">Apoio</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#inscricoes">Inscrições</a></li>
+                <!-- <li><a href="#cronograma">Cronograma</a></li> -->
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
     </div>

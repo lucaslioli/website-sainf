@@ -5,18 +5,16 @@ $(document).ready(function(){
   var $asainf = $('#animate-sainf');
   var $apoiadores = $('#animate-apoiadores');
   var $speakers = $('#animate-speakers');
-  var $cronograma = $('#animate-cronograma');
-  var $panel_dia1 = $('#panel-dia1');
-  var $panel_dia2 = $('#panel-dia2');
-  var $panel_dia3 = $('#panel-dia3');
-  var $panel_dia4 = $('#panel-dia4');
-
+  var $cronograma = $('#accordion');
+  var $gallery = $('#galeria');
   
   $cabecalho.css('opacity', '0');
   $cronometro.css('opacity', '0');
   $asainf.css('opacity', '0');
   $apoiadores.css('opacity', '0');
   $speakers.css('opacity', '0');
+  $cronograma.css('opacity', '0');
+  $gallery.css('opacity', '0');
  
   $cabecalho.waypoint(function(direction) {
   	if (direction == 'down' ) {
@@ -45,7 +43,7 @@ $(document).ready(function(){
      
   }, { offset: '50%' });
 
-   $apoiadores.waypoint(function(direction) {
+  $apoiadores.waypoint(function(direction) {
   	if (direction == 'down' ) {
   		$apoiadores.addClass('fadeInRight');	
   	}else {
@@ -54,7 +52,7 @@ $(document).ready(function(){
      
   }, { offset: '50%' });
 
-    $speakers.waypoint(function(direction) {
+  $speakers.waypoint(function(direction) {
   	if (direction == 'down' ) {
   		$speakers.addClass('fadeInLeft');	
   	}else {
@@ -63,42 +61,23 @@ $(document).ready(function(){
      
   }, { offset: '50%' });
 
-    $panel_dia1.waypoint(function(direction) {
+  $cronograma.waypoint(function(direction) {
     if (direction == 'down' ) {
-      $panel_dia1.addClass('fadeInLeft'); 
+      $cronograma.addClass('fadeInLeft'); 
     }else {
-      $panel_dia1.removeClass('fadeInLeft');  
+      $cronograma.removeClass('fadeInLeft');  
     }
      
   }, { offset: '50%' });
 
-    $panel_dia2.waypoint(function(direction) {
+  $gallery.waypoint(function(direction) {
     if (direction == 'down' ) {
-      $panel_dia2.addClass('fadeInRight'); 
+      $gallery.addClass('fadeInRight'); 
     }else {
-      $panel_dia2.removeClass('fadeInRight');  
+      $gallery.removeClass('fadeInRight');  
     }
      
-  }, { offset: '50%' });
-
-
-    $panel_dia3.waypoint(function(direction) {
-    if (direction == 'down' ) {
-      $panel_dia3.addClass('fadeInLeft'); 
-    }else {
-      $panel_dia3.removeClass('fadeInLeft');  
-    }
-     
-  }, { offset: '50%' });
-
-    $panel_dia4.waypoint(function(direction) {
-    if (direction == 'down' ) {
-      $panel_dia4.addClass('fadeInRight'); 
-    }else {
-      $panel_dia4.removeClass('fadeInRight');  
-    }
-     
-  }, { offset: '50%' });
+  }, { offset: '75%' });
 
 });
 
