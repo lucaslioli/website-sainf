@@ -141,7 +141,11 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 #cronogramaContainer #accordion .panel-dia2 { border-left: 8px solid #696969 }
 #cronogramaContainer #accordion .panel-dia3 { border-left: 8px solid #808080 }
 #cronogramaContainer #accordion .panel-dia4 { border-left: 8px solid #a9a9a9 }
-#cronogramaContainer #accordion .alert { font-size: 16pt; text-align: center; border: 1px solid #eee; margin-bottom: 0px !important;}
+#cronogramaContainer #accordion .alert { font-size: 14pt; border-bottom: 0px; text-align: center; margin-bottom: 0px !important; }
+#cronogramaContainer #accordion .alert-link { padding: 5px !important; }
+#cronogramaContainer #accordion hr { margin: 0px; }
+.atracao { display: flex; align-items: stretch; }
+.atracao div { display: flex; align-items: center; justify-content: center; }
 
 /* RODAPÉ */
 .rodape p { color: #AEAEAE; text-align: center; font-size: 10pt; padding: 0px; }
@@ -155,7 +159,7 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 	#menu .center { width: 700px;}
 	#menu ul li a { padding: 0px 5px;}
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
 	body p { padding: 0px 15px; }
 	#menu .center { width: 100%; padding: 0px 15px;}
 	#menu ul, #menu ul li, #menu ul li a { width: 100%; padding: 0px; text-align: center;}

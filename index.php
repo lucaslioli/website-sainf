@@ -22,8 +22,8 @@
 	    <!-- A SAINF -->
 		<?php include_once('pages/asainf.php'); ?>
 
-	    <!-- Apoio -->
-		<?php include_once('pages/apoio.php'); ?>
+	    <!-- Cronograma -->
+		<?php include_once('pages/cronograma.php'); ?>
 
 	    <!-- Speakers -->
 		<?php include_once('pages/speakers.php'); ?>
@@ -31,8 +31,8 @@
 		<!-- Inscrições -->
 		<?php include_once('pages/inscricoes.php'); ?>
 
-		<!-- Cronograma -->
-		<?php //include_once('pages/cronograma.php'); ?>
+		<!-- Apoio -->
+		<?php include_once('pages/apoio.php'); ?>
 
 		<!-- Galeria -->
 		<?php include_once('pages/gallery.php'); ?>

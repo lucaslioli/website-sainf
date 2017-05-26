@@ -4,6 +4,7 @@
 		</div>
 		<div class="container">
 			<div class="panel-group animated" id="accordion">
+				<!-- DIA 1 -->
 				<div class="panel" id="panel-dia1">
 				    <div class="panel-heading panel-dia1">
 				      <a data-toggle="collapse" data-parent="#accordion" href="#dia1">
@@ -13,37 +14,45 @@
 				      </a>
 				    </div>
 				    <div id="dia1" class="panel-collapse collapse">
-				      <div class="panel-body ">
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12 ">10:30 ~ 12:00</div>
-				      		<div class="alert alert-success col-xs-12">
-				      		<b>Palestra: </b>Daniel Lichtnow - Sistemas de Recomendação utilizando Apache Mahout.</div>
+				      	<div class="panel-body ">
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>10:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Daniel Lichtnow - Sistemas de Recomendação utilizando Apache Mahout</span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>12:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Almoço</b></span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Matheus Serpa -  Code Modernization: Exploiting Intel Xeon and Xeon Phi for HPC Applications</span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Coffe-Break</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Ana Cláudia Kist - Pensar Estratégia: Bora lá?</span>
+					      		</div>
+					      	</div>
 				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">12:00 ~ 14:00</div>
-				      		<div class="alert alert-info col-xs-12">Almoço</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">14:30 ~ 16:00</div>
-				      		<div class="alert alert-success col-xs-12">
-							<b>Palestra: </b>Matheus Serpa - Code Modernization: Exploiting Intel Xeon and Xeon Phi for HPC Applications.
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:00 ~ 16:30</div>
-				      		<div class="alert alert-info col-xs-12">
-							Coffe-Break
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:30 ~ 18:00</div>
-				      		<div class="alert alert-success col-xs-12">
-							<b>Palestra: </b>Ana Cláudia Kist - Jogadas de Marketing
-							</div>
-				      	</div>
-				      </div>
 				    </div>
 				</div>
+				<!-- DIA 2 -->
 				<div class="panel" id="panel-dia2">
 				    <div class="panel-heading panel-dia2">
 				      <a data-toggle="collapse" data-parent="#accordion" href="#dia2">
@@ -53,41 +62,45 @@
 				      </a>
 				    </div>
 				    <div id="dia2" class="panel-collapse collapse">
-				      <div class="panel-body">
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12 ">10:30 ~ 12:00</div>
-				      		<div class="alert alert-success col-xs-12">
-				      		<b>Palestra/Workshop: </b>Em Aberto</div>
+				      	<div class="panel-body">
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>10:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-danger">
+					      			<span><b>Maratona de Programação</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>12:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Almoço</b></span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-danger">
+					      			<span><b>Maratona de Programação</b></span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Coffe-Break</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-danger">
+					      			<span><b>Maratona de Programação</b></span>
+					      		</div>
+					      	</div>
 				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">12:00 ~ 14:00</div>
-				      		<div class="alert alert-info col-xs-12">Almoço</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">14:00 ~ 14:30</div>
-				      		<div class="alert alert-info col-xs-12">Compact Jr.</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">14:30 ~ 16:00</div>
-				      		<div class="alert alert-danger col-xs-12">
-							Maratona de Programação
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:00 ~ 16:30</div>
-				      		<div class="alert alert-info col-xs-12">
-							Coffe-Break
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:30 ~ 18:00</div>
-				      		<div class="alert alert-danger col-xs-12">
-							Maratona de Programação
-							</div>
-				      	</div>
-				      </div>
 				    </div>
 				</div>
+				<!-- DIA 3 -->
 				<div class="panel" id="panel-dia3">
 				    <div class="panel-heading panel-dia3">
 				      <a data-toggle="collapse" data-parent="#accordion" href="#dia3">
@@ -98,36 +111,51 @@
 				    </div>
 				    <div id="dia3" class="panel-collapse collapse">
 					    <div class="panel-body">
-					    	<div class="row">
-					      		<div class="alert alert-link col-xs-12 ">10:30 ~ 12:00</div>
-					      		<div class="alert alert-success col-xs-12">
-					      		<b>Palestra/Workshop: </b>Em Aberto</div>
+					    	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>09:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Mauricio Corrêa - XSS Injection e seus perigos</span>
+					      		</div>
 					      	</div>
-					      	<div class="row">
-					      		<div class="alert alert-link col-xs-12">12:00 ~ 14:00</div>
-					      		<div class="alert alert-info col-xs-12">Almoço</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>12:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Almoço</b></span>
+					      		</div>
 					      	</div>
-					      	<div class="row">
-					      		<div class="alert alert-link col-xs-12">14:30 ~ 16:00</div>
-					      		<div class="alert alert-success col-xs-12">
-								<b>Palestra: </b>Luis Rodriguez - Machine Learning
-								</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>14:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Papo descontraído: </b>UP Idiomas - A importância do Inglês na TI</span>
+					      		</div>
 					      	</div>
-					      	<div class="row">
-					      		<div class="alert alert-link col-xs-12">16:00 ~ 16:30</div>
-					      		<div class="alert alert-info col-xs-12">
-								Coffe-Break
-								</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Luis Serrano - Machine Learning: Passado, Presente e Futuro</span>
+					      		</div>
 					      	</div>
-					      	<div class="row">
-					      		<div class="alert alert-link col-xs-12">16:30 ~ 18:00</div>
-					      		<div class="alert alert-warning col-xs-12">
-								Mesa Redonda
-								</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Coffe-Break</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-warning">
+					      			<span><b>Mesa Redonda: </b>A Situação atual do mercado de trabalho na área de TI</span>
+					      		</div>
 					      	</div>
 						</div>
 				    </div>
 				</div>
+				<!-- DIA 4 -->
 				<div class="panel" id="panel-dia4">
 				    <div class="panel-heading panel-dia4">
 				      <a data-toggle="collapse" data-parent="#accordion" href="#dia4">
@@ -137,35 +165,42 @@
 				      </a>
 				    </div>
 				    <div id="dia4" class="panel-collapse collapse">
-				      <div class="panel-body">
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12 ">10:30 ~ 12:00</div>
-				      		<div class="alert alert-warning col-xs-12">
-				      		Painel sobre Reforma Curricular</div>
+				      	<div class="panel-body">
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>09:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-warning">
+					      			<span><b>Painel de discussão sobre Reforma Curricular</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>12:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Almoço</b></span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Arthur Francisco Lorenzon - Desenvolvimento de Software com Baixo Consumo Energético para Sistemas Embarcados</span>
+					      		</div>
+					      	</div>
+							<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:00</b></span></div>
+					      		<div class="col-xs-10 alert alert-info">
+					      			<span><b>Coffe-Break</b></span>
+					      		</div>
+					      	</div>
+					      	<hr>
+					      	<div class="row atracao">
+					      		<div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
+					      		<div class="col-xs-10 alert alert-success">
+					      			<span><b>Palestra: </b>Eduardo Chuaste - Grupo Meta</span>
+					      		</div>
+					      	</div>
 				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">12:00 ~ 14:00</div>
-				      		<div class="alert alert-info col-xs-12">Almoço</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">14:30 ~ 16:00</div>
-				      		<div class="alert alert-success col-xs-12">
-							<b>Palestra: </b>Arthur Francisco Lorenzon - Desenvolvimento de Software com Baixo Consumo Energético para Sistemas Embarcados.
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:00 ~ 16:30</div>
-				      		<div class="alert alert-info col-xs-12">
-							Coffe-Break
-							</div>
-				      	</div>
-				      	<div class="row">
-				      		<div class="alert alert-link col-xs-12">16:30 ~ 18:00</div>
-				      		<div class="alert alert-success col-xs-12">
-							<b>Palestra: </b> Em Aberto
-							</div>
-				      	</div>
-				      </div>
 				    </div>
 				</div>
 			</div>
