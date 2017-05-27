@@ -197,7 +197,7 @@
 					      	<div class="row atracao">
 					      		<div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
 					      		<div class="col-xs-10 alert alert-success">
-					      			<span><b>Palestra: </b>Eduardo Chuaste - Grupo Meta</span>
+					      			<span><b>Palestra: </b>Eduardo Chuaste - Gestão de Projetos</span>
 					      		</div>
 					      	</div>
 				      	</div>
@@ -205,5 +205,5 @@
 				</div>
 			</div>
 		</div><!--
-		--><div id="gallery" class="menu-height"></div>
+		--><div id="speakers" class="menu-height"></div>
 </div>

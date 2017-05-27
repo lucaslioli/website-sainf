@@ -21,6 +21,12 @@
 				<h5>Daniel Lichtnow</h5>
 				<h6>UFSM</h6>
 			</div>
+			<!-- Eduardo Chuaste - Grupo Meta -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/eduardo_chuaste.jpg">
+				<h5>Eduardo Chuaste</h5>
+				<h6>Grupo Meta</h6>
+			</div>
 			<!-- Jucieli Baschirotto - SAP -->
 			<div class="speaker-cima">
 				<img class="img-responsive img-circle" src="assets/img/palestrantes/jucieli.jpg">

@@ -39,6 +39,6 @@
 			<div class="box">
 				<a href ="http://www.ufsm.br" TARGET="_blank"><img src="assets/img/apoiadores/ufsm.jpg"></a>
 			</div>
-			<div id="speakers" class="menu-height"></div>
+			<div id="gallery" class="menu-height"></div>
 		</div>
 </div>
