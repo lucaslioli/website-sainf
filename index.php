@@ -15,8 +15,9 @@
 	<body>
 		<?php 
 		date_default_timezone_set('America/Sao_Paulo');
-		$prazo_evento    = strtotime('06/02/2017 14:30');
-		$prazo_maratona  = strtotime('06/06/2017 12:30');
+		$prazo_evento   = strtotime('06/02/2017 14:30');
+		$prazo_maratona = strtotime('06/06/2017 12:30');
+		$inicio_evento  = strtotime('06/06/2017 00:00');
 		$agora = strtotime(date('m/d/Y H:i'));
 
 		// Menu
