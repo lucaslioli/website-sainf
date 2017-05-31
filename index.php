@@ -13,36 +13,46 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
 	</head>
 	<body>
-		<!-- Menu -->
-		<?php include_once('pages/menu.php'); ?>
+		<?php 
+		date_default_timezone_set('America/Sao_Paulo');
+		$prazo_evento    = strtotime('06/02/2017 14:30');
+		$prazo_maratona  = strtotime('06/06/2017 12:30');
+		$agora = strtotime(date('m/d/Y H:i'));
 
-		<!-- Cabeçalho -->
-		<?php include_once('pages/head.php'); ?>
+		// Menu
+		include_once('pages/menu.php');
 
-	    <!-- A SAINF -->
-		<?php include_once('pages/asainf.php'); ?>
+		// Cabeçalho
+		include_once('pages/head.php');
 
-	    <!-- Cronograma -->
-		<?php include_once('pages/cronograma.php'); ?>
+	    // A SAINF
+		include_once('pages/asainf.php');
 
-	    <!-- Speakers -->
-		<?php include_once('pages/speakers.php'); ?>
+	    // Cronograma
+		include_once('pages/cronograma.php');
 
-		<!-- Inscrições -->
-		<?php include_once('pages/inscricoes.php'); ?>
+	    // Speakers
+		include_once('pages/speakers.php');
 
-		<!-- Apoio -->
-		<?php include_once('pages/apoio.php'); ?>
+		// Inscrições
+		include_once('pages/inscricoes.php');
 
-		<!-- Galeria -->
-		<?php include_once('pages/gallery.php'); ?>
+		// Maratona
+		include_once('pages/maratona.php');
 
-		<!-- Contato -->
-		<?php include_once('pages/contato.php'); ?>
+		// Apoio
+		include_once('pages/apoio.php');
 
-		<!-- RODAPE -->
-		<?php include_once('pages/footer.php'); ?>
-	
+		// Galeria
+		include_once('pages/gallery.php');
+
+		// Contato
+		include_once('pages/contato.php');
+
+		// RODAPE
+		include_once('pages/footer.php'); 
+
+		?>	
 	<script src="assets/js/countDown.js" type="text/javascript"></script>
 	<script type="text/javascript" src="assets/js/lightbox_plus_jquery.min.js">
 	    /**

@@ -9,7 +9,12 @@
                 <li><a href="#a-sainf">A SAINF</a></li>
                 <li><a href="#cronograma">Cronograma</a></li>
                 <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#inscricoes">Inscrições</a></li>
+                <?php if($prazo_evento > $agora): ?>
+                    <li><a href="#inscricoes">Inscrições</a></li>
+                <?php endif; 
+                if($prazo_maratona > $agora):?>
+                    <li><a href="#maratona">Maratona</a></li>
+                <?php endif; ?>
                 <li><a href="#apoio">Apoio</a></li>
                 <li><a href="#gallery">Galeria</a></li>
                 <li><a href="#contato">Contato</a></li>

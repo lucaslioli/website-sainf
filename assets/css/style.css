@@ -1,7 +1,7 @@
 html, body, div, p, a, span, h1, h2, h3, h4, h5, h6, ul, li {
 	margin: 0px; border: 0px none; padding: 0px; font-family: Arial, sans-serif;}
 html, body { width: 100%; height: 100%; position: relative;}
-body { font-family: Ubuntu, sans-serif; }
+body { font-family: Ubuntu, sans-serif; overflow-x: hidden; }
 h1 { min-width: 190px; padding: 15px 5px; text-align: center; }
 body p { padding: 0px 75px; text-align: justify; margin-bottom: 10px; line-height: 1.7; color: #5c5c5c; }
 
@@ -79,6 +79,8 @@ body p { padding: 0px 75px; text-align: justify; margin-bottom: 10px; line-heigh
 
 .bg-cinza { background-color: #444349; color: #FFF; }
 .bg-cinza p { color: #FFF; }
+.bg-cinza a { color: #01afef; }
+.bg-cinza a:hover { color: #01afef; text-decoration: underline; }
 
 /* DIVISOR */
 div.divisor { height: 13px;  border-bottom: 2px solid #5AA1E3; text-align: center; 
@@ -146,6 +148,8 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 #cronogramaContainer #accordion hr { margin: 0px; }
 .atracao { display: flex; align-items: stretch; }
 .atracao div { display: flex; align-items: center; justify-content: center; }
+
+.detalhe-maratona strong { font-size: 20px; }
 
 /* RODAPÉ */
 .rodape p { color: #AEAEAE; text-align: center; font-size: 10pt; padding: 0px; }
