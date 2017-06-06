@@ -15,6 +15,12 @@
 				<h5>Arthur Lorenzon</h5>
 				<h6>UFRGS</h6>
 			</div>
+			<!-- Cesar Pozzer - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/cesar_pozzer.jpg">
+				<h5>Cesar Pozzer</h5>
+				<h6>UFSM</h6>
+			</div>
 			<!-- Daniel Lichtnow - UFSM -->
 			<div class="speaker-cima">
 				<img class="img-responsive img-circle" src="assets/img/palestrantes/daniel.jpg">
@@ -26,6 +32,18 @@
 				<img class="img-responsive img-circle" src="assets/img/palestrantes/eduardo_chuaste.jpg">
 				<h5>Eduardo Chuaste</h5>
 				<h6>Grupo Meta</h6>
+			</div>
+			<!-- Felipe Muller - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/felipe_muller.jpg">
+				<h5>Felipe Muller</h5>
+				<h6>UFSM</h6>
+			</div>
+			<!-- João Vicente Lima - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/joao_vicente.jpg">
+				<h5>João Vicente Lima</h5>
+				<h6>UFSM</h6>
 			</div>
 			<!-- Jucieli Baschirotto - SAP -->
 			<div class="speaker-cima">
@@ -50,6 +68,24 @@
 				<img class="img-responsive img-circle" src="assets/img/palestrantes/mauricio.jpg">
 				<h5>Mauricio Corrêa</h5>
 				<h6>XLabs ON-Security</h6>
+			</div>
+			<!-- Nilza Zampieri - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/nilza.jpg">
+				<h5>Nilza Zampieri</h5>
+				<h6>UFSM</h6>
+			</div>
+			<!-- Patricia Pitthan - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/pitthan.jpg">
+				<h5>Patricia Pitthan</h5>
+				<h6>UFSM</h6>
+			</div>
+			<!-- Sergio Mergen - UFSM -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/sergio_mergen.jpg">
+				<h5>Sergio Mergen</h5>
+				<h6>UFSM</h6>
 			</div>
 		</div><!--
 			--><div id="inscricoes" class="menu-height"></div>
