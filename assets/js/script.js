@@ -4,6 +4,7 @@ $(document).ready(function(){
   var $cronometro = $('#animate-cronomer');
   var $asainf = $('#animate-sainf');
   var $apoiadores = $('#animate-apoiadores');
+  var $realizacao = $('#animate-realizacao');
   var $speakers = $('#animate-speakers');
   var $cronograma = $('#accordion');
   var $gallery = $('#galeria');
@@ -12,6 +13,7 @@ $(document).ready(function(){
   $cronometro.css('opacity', '0');
   $asainf.css('opacity', '0');
   $apoiadores.css('opacity', '0');
+  $realizacao.css('opacity', '0');
   $speakers.css('opacity', '0');
   $cronograma.css('opacity', '0');
   $gallery.css('opacity', '0');
@@ -34,7 +36,7 @@ $(document).ready(function(){
      
   }, { offset: '75%' });
 
-  $asainf.waypoint(function(direction) {
+   $asainf.waypoint(function(direction) {
   	if (direction == 'down' ) {
   		$asainf.addClass('fadeInLeft');	
   	}else {

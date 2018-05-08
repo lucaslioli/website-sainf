@@ -15,9 +15,9 @@
 	<body>
 		<?php 
 		date_default_timezone_set('America/Sao_Paulo');
-		$prazo_evento   = strtotime('06/02/2017 14:30');
-		$prazo_maratona = strtotime('06/06/2017 12:30');
-		$inicio_evento  = strtotime('06/06/2017 00:00');
+		$prazo_evento   = strtotime('06/15/2018 14:30');
+		$prazo_maratona = strtotime('06/20/2018 12:30');
+		$inicio_evento  = strtotime('06/19/2018 00:00');
 		$agora = strtotime(date('m/d/Y H:i'));
 
 		// Menu
@@ -66,6 +66,6 @@
 	<!-- <script src="assets/js/jquery.min.js" type="text/javascript"></script> -->
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="assets/js/jquery.waypoints.min.js" type="text/javascript"></script>
-	<script src="assets/js/script.js" type="text/javascript"></script>
+	<!-- <script src="assets/js/script.js" type="text/javascript"></script> -->
 	</body>
 </html>

@@ -30,7 +30,9 @@ body p { padding: 0px 75px; text-align: justify; margin-bottom: 10px; line-heigh
 #menu ul li a:hover { background-color: #00a3f5; }
 #menu ul li:first-child { margin-left: 0px; }*/
 
-#menu-logo { width: 139px; height: 38px; margin-top: 5px; display: inline-block;
+.navbar-nav > li > a { padding-top: 20px !important; padding-bottom: 20px !important; }
+
+#menu-logo { width: 160px; height: 38px; margin: 10px 10px 5px 10px; display: inline-block;
 	background-image: url("../img/menu-logo.png"); background-size: 100%;}
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -168,6 +170,21 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 	#menu .center { width: 100%; padding: 0px 15px;}
 	#menu ul, #menu ul li, #menu ul li a { width: 100%; padding: 0px; text-align: center;}
 	#menu ul li { margin-top: 2px;}
-	#menu-logo { margin-bottom: 15px;}
+	/*#menu-logo { margin-bottom: 15px;}*/
 	#drop-butn { width: 40px; height: 40px; visibility: visible;}
+}
+
+@media (max-width: 468px){
+	.detalhe-maratona {
+		margin-top: 70px !important;
+	}
+	#inscricoesContainer iframe {
+		height: 2000px;
+	}
+}
+
+@media (max-width: 320px) {
+	#inscricoesContainer iframe {
+		height: 2100px;
+	}
 }
