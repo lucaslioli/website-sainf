@@ -15,6 +15,18 @@
 				<h5>Jéferson C. Nobre</h5>
 				<h6>UNISINOS</h6>
 			</div>
+			<!-- Jorge Sarkis - Mais Gestão -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/jorge.jpg">
+				<h5>Jorge Sarkis</h5>
+				<h6>Mais Gestão</h6>
+			</div>
+			<!-- Rafael Guimbala - SAP Labs -->
+			<div class="speaker-cima">
+				<img class="img-responsive img-circle" src="assets/img/palestrantes/rafael.jpg">
+				<h5>Rafael Guimbala</h5>
+				<h6>SAP Labs</h6>
+			</div>
 			<!-- Solange Pertile - UFSM -->
 			<div class="speaker-cima">
 				<img class="img-responsive img-circle" src="assets/img/palestrantes/solange.jpg">
