@@ -123,6 +123,7 @@ div.divisor > div.title-section, div.title-section-grey  { padding: 5px;  displa
 .speaker-cima img {border-radius: 50%; margin: 10px; width:150px; border: 4px solid #fff;}
 .speaker-cima h5 {font-size: 15pt; color: #fff; }
 .speaker-cima h6 {font-size: 11pt; color: #fff; }
+.speaker-cima h6 img { border-radius: 0; margin: 0; width: 12px; border: none; vertical-align: top; }
 
 /* CRONOGRAMA */
 .div-cronograma { width: 99%; margin: 50px 0px 40px 0px; border-collapse:collapse; overflow-x: scroll; }

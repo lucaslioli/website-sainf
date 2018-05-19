@@ -12,11 +12,11 @@
 			<div class="box">
 				<a href ="http://www.upidiomas.com.br/" TARGET="_blank"><img src="assets/img/apoiadores/up.jpg"></a>
 			</div>
-			<!-- <div class="box">
-				<a href ="http://www.cantustange.com.br/" TARGET="_blank"><img src="assets/img/apoiadores/zada.jpg"></a>
-			</div> -->
 			<div class="box">
 				<a href ="http://animati.com.br/" TARGET="_blank"><img src="assets/img/apoiadores/animati.jpg"></a>
+			</div>
+			<div class="box">
+				<a href ="https://www.facebook.com/GrowTechSoftwares/" TARGET="_blank"><img src="assets/img/apoiadores/growtech.jpg"></a>
 			</div>
 			<!-- <div class="box">
 				<img src="assets/img/apoiadores/menezes.jpg">
@@ -30,9 +30,6 @@
 			<div class="box">
 				<a href ="https://www.alura.com.br/" TARGET="_blank"><img src="assets/img/apoiadores/alura.jpg"></a>
 			</div>
-			<!-- <div class="box">
-				<a href ="https://polvolouco.com.br/" TARGET="_blank"><img src="assets/img/apoiadores/polvo_louco.jpg"></a>
-			</div> -->
 			<div id="gallery" class="menu-height"></div>
 		</div>
 		<div class="divisor">

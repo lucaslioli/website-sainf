@@ -21,7 +21,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>10:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Palestra - </b>A confirmar</span>
                                 </div>
                             </div>
                             <hr>
@@ -33,9 +33,16 @@
                             </div>
                             <hr>
                             <div class="row atracao">
+                                <div class="col-xs-2 alert alert-link"><span><b>14:00</b></span></div>
+                                <div class="col-xs-10 alert alert-warning">
+                                    <span><b>Cerimônia de Abertura do Evento</b></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Maurício Armani - </b>Criptomoedas e Blockchain</span>
                                 </div>
                             </div>
                             <hr>
@@ -48,8 +55,8 @@
                             <hr>
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
-                                <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                <div class="col-xs-10 alert alert-warning">
+                                    <span><b>Mesa Redonda - </b>Tema: Dificuldades e obstáculos ao abrir um novo negócio</span>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +79,7 @@
                                     <span><b>Maratona de Programação</b></span>
                                 </div>
                                 <div class="col-xs-5 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Tatiane Reis - </b>O perfil dos novos profissionais de TI</span>
                                 </div>
                             </div>
                             <hr>
@@ -84,12 +91,19 @@
                             </div>
                             <hr>
                             <div class="row atracao">
+                                <div class="col-xs-2 alert alert-link"><span><b>14:00</b></span></div>
+                                <div class="col-xs-10 alert alert-warning">
+                                    <span><b>Papo descontraído: </b>Compact Jr.</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
                                 <div class="col-xs-5 alert alert-danger">
                                     <span><b>Maratona de Programação</b></span>
                                 </div>
                                 <div class="col-xs-5 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Cássio F. Lemos - </b>Game Jam e o desenvolvimento de jogos em um prazo apertado</span>
                                 </div>
                             </div>
                             <hr>
@@ -106,7 +120,7 @@
                                     <span><b>Maratona de Programação</b></span>
                                 </div>
                                 <div class="col-xs-5 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Palestra - </b>A confirmar</span>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +140,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>09:00</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b> A confirmar</span>
+                                    <span><b>Solange Pertile - </b>Sistemas de Detecção de Plágio</span>
                                 </div>
                             </div>
                             <hr>
@@ -137,17 +151,17 @@
                                 </div>
                             </div>
                             <hr>
-                            <!-- <div class="row atracao">
+                            <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>14:00</b></span></div>
-                                <div class="col-xs-10 alert alert-success">
-                                    <span><b>Papo descontraído: </b>UP Idiomas - A importância do Inglês na TI</span>
+                                <div class="col-xs-10 alert alert-warning">
+                                    <span><b>Papo descontraído: </b>UP Idiomas</span>
                                 </div>
                             </div>
-                            <hr> -->
+                            <hr>
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Eduardo Carvalho - </b>Big Data: conceitos e o que acontece no mercado de trabalho</span>
                                 </div>
                             </div>
                             <hr>
@@ -161,7 +175,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Rafael Guimbala - </b>Fórmula da Inovação</span>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +195,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Jaime Belmonte - </b>A-Frame: A Realidade Virtual para a web</span>
                                 </div>
                             </div>
                             <hr>
@@ -195,7 +209,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>14:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Arthur Puthin - </b>Tipos em Javascript: do nativo ao estático</span>
                                 </div>
                             </div>
                             <hr>
@@ -209,7 +223,7 @@
                             <div class="row atracao">
                                 <div class="col-xs-2 alert alert-link"><span><b>16:30</b></span></div>
                                 <div class="col-xs-10 alert alert-success">
-                                    <span><b>Palestra: </b>A confirmar</span>
+                                    <span><b>Jéferson Campos Nobre - </b>Abordagens Cognitivas para Engenharia Social</span>
                                 </div>
                             </div>
                         </div>
